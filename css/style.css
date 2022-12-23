@@ -1,0 +1,170 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 250vh;
+    /* background-color: rgba(0, 0, 0, 0.88); */
+    /* background-image: radial-gradient(rgb(238, 231, 231), rgb(44, 27, 82), rgb(0, 0, 0)); */
+    background-image: url("/Image/313-3130303_soft-blue-gradient-light-blue-to-white-background.png");
+    background-size: cover;
+
+
+
+}
+
+/* navbar */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+nav .navbar {
+
+    position: sticky;
+    top: 0;
+
+
+}
+
+#nav-img {
+
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgb(254, 253, 253);
+}
+
+/* type write intro start */
+.typewrite {
+    height: 100vh;
+    background-image: url("/Image/credit_irina-dmitrienko-_-alamy.webp");
+    background-size: cover;
+
+
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.bg-img {
+    position: absolute;
+    left: 10vw;
+    height: 80vh;
+
+    background-image: url("/Image/credit_irina-dmitrienko-_-alamy.webp");
+
+    z-index: 1;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.wrap {
+    position: absolute;
+    left: 10vw;
+    z-index: 5;
+
+
+    height: 80vh;
+
+    /* background-image: url("/Image/conquering-the-universe-wallpaper-2560x2048_33.jpg");
+    background-size: auto; */
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgb(11, 11, 11);
+
+    width: 150vh;
+
+    border-top: 4;
+
+    overflow: hidden;
+
+
+}
+
+.animate_fadeOut .greet {
+    --animate-delay: 2s;
+    --animate-duration: 4s;
+
+}
+
+
+
+.wrap p {
+    color: rgb(249, 243, 243);
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+    padding: 0.5;
+
+
+}
+
+.typed-text {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+    display: inline-block;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.span-cursor {
+    display: inline-block;
+    background-color: black;
+    width: 3px;
+
+}
+
+.intro {
+    background-color: aqua;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+/* type write intro end */
+
+/* language effeiciency info start */
+.info-lang {
+    border-color: black;
+    border: 2rem;
+    margin: 5rem;
+}
+
+.p-info-heading {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.p-lang {
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.ani {
+    background-color: rgb(15, 74, 76);
+    border-radius: 10%;
+
+    transition: opacity 0.4s;
+
+    opacity: 0;
+}
